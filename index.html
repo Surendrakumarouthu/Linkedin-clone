@@ -1,0 +1,512 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+<style>
+ .navbar {
+    display: flex;
+    align-items: center;
+  }
+.link-image img{
+margin-left:150px;
+height:35px;
+width:120px;
+}
+
+  .navbar li {
+    list-style: none;
+    margin-right: 10px;
+    display: inline-block;
+height:50px;
+width:50px;
+text-align:center;
+padding:15px;
+max-width:100%;
+   
+
+  }
+.nav-links{
+margin-left:250px;
+}
+  .navbar a {
+    text-decoration: none;
+    padding: 10px;
+    color: #8e8e8e;
+font-weight:500;
+margin-left:5px;
+font-family:arial;
+padding:10px;
+
+  }
+
+  
+  .btn-signin {
+    margin-left: -15px;
+    padding: 20px 20px;
+    cursor: pointer;
+  border-radius:25px;
+  border:2px solid #0A66C2;
+padding:10px 20px;
+color:#0A66C2;
+font-weight:500;
+width:100px;
+font-size: 16px;
+  }
+ .btn-signin:hover {
+   
+  color: #0073b1;
+    background-color: #e6f3ff;
+    border: 2px solid #0073b1;
+    padding: 10px 20px;
+    border-radius: 25px;
+font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 16px;
+font-weight:500;
+
+  }
+
+
+.btn-joinnow{
+font-family:calbri;
+border:none;
+background-color:transparent;
+cursor:pointer;
+font-size:14px;
+color:#8e8e8e;
+font-weight:550;
+padding:12px;
+width:100px;
+margin-left:-30px;
+
+}
+.btn-joinnow:hover
+{
+
+border-radius:30px;
+background-color:#f0f0f0;
+
+}
+.pic{
+margin-left:870px;
+margin-top:-450px;
+}
+.main-pic{
+height:500px;
+}
+.right-content{
+margin-left:190px;
+margin-top:50px;
+}
+.app a{
+display: flex;
+    align-items: center;
+    white-space: nowrap; 
+margin-left: -8px;
+
+}
+.nav-links img{
+height:20px;
+width:30px;
+cursor:pointer;
+}
+.app{
+ 
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li {
+    margin: 0 15px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    white-space: nowrap; 
+}
+h1{
+font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    color: #666666;
+    line-height: 1;
+padding-top:-10px;
+}
+.btn-mail{
+width:400px;
+border-radius:40px;
+border:2px solid #666666;
+height:45px;
+background-color:#fff;
+font-size:17px;
+margin-top:5px;
+color:#404040;
+font-weight:530;
+cursor:pointer;
+padding:10px;
+}
+.btn-mail:hover{
+border:2px solid #666665;
+
+}
+.btn-microsoft{
+width:400px;
+border-radius:40px;
+border:2px solid #666666;
+height:45px;
+background-color:#fff;
+font-size:17px;
+margin-top:20px;
+color:#404040;
+font-weight:530;
+margin-bottom:20px;
+cursor:pointer;
+
+}
+.agree a{
+font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(10,102,194); 
+    text-decoration: none;
+
+}
+.agree a:hover{
+text-decoration: underline;
+}
+.agree span{
+font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+line-height:17px;
+}
+.new-to-login{
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+margin-top:40px;
+margin-left:110px;
+}
+.new-to-login a{
+font-weight: 600;
+    color: rgb(10,102,194);
+  text-decoration:none;
+
+}
+.new-to-login a:hover{
+text-decoration: underline;
+
+}
+.google{
+width:20px;
+height:20px;
+margin-left:350px;
+margin-top:-18px;
+}
+.microsoft{
+width:20px;
+height:20px;
+margin-right:10px;
+}
+.btn-sign-mail{
+width:400px;
+border-radius:40px;
+border:2px solid #666666;
+height:45px;
+background-color:#fff;
+font-size:17px;
+color:#404040;
+font-weight:530;
+margin-bottom:20px;
+cursor:pointer;
+
+}
+.div-second-row{
+margin-left:190px;
+margin-top:80px;
+}
+.big-text{
+font-size:38px;
+color:#191919;
+ font-family: 'Roboto', Arial, sans-serif;
+font-weight: 500;
+  margin-bottom: 10px; 
+
+
+}
+.sub-text{
+ font-family: 'Roboto', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #666; 
+    margin-bottom: 20px;
+word-spacing:10px;
+
+
+}
+.div-second-row-button{
+margin-left:790px;
+margin-top:-150px;
+margin-right:150px;
+
+}
+.div-second-row-buttons button{
+font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal; 
+    color: #3D3D3C; 
+    background-color: #fff; 
+    border: 1px solid #3D3D3C; 
+    padding: 10px 15px; 
+    border-radius: 60px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+margin-top:10px;
+height:60px;
+}
+#second-row{
+padding-bottom:40px;
+margin-bottom:30px;
+
+}
+.div-second-row-buttons button:hover{
+ background-color: #f0f0f0;
+}
+.btn-showall button{
+font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal; 
+    color: #0A66C2; 
+    background-color: #fff; 
+    border: 1px solid #0A66C2; 
+    padding: 10px 15px; 
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+margin-top:10px;
+height:60px;
+margin-left:340px;
+margin-top:-60px;
+
+}
+.btn-showall button:hover{
+color: #0073b1;
+    background-color: #e6f3ff;
+}
+.third-big-text{
+font-size:32px;
+color:#191919;
+ font-family: 'Roboto', Arial, sans-serif;
+font-weight: 500; 
+margin-top:-80px;
+
+}
+.fourth-section{
+margin-bottom:20px;
+background-color:#F1ECE5;
+padding:75px;
+margin-top:20px;
+}
+.fourth-section button{
+font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal; 
+    color: #0A66C2; 
+    background-color: #fff; 
+    border: 1px solid #0A66C2; 
+    padding: 10px 15px; 
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+margin-top:10px;
+height:50px;
+margin-left:340px;
+margin-top:-60px;
+margin-left:630px;
+
+
+}
+.btn-showall-fifth button{
+font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal; 
+    color: #0A66C2; 
+    background-color: #fff; 
+    border: 1px solid #0A66C2; 
+    padding: 10px 15px; 
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+margin-top:10px;
+height:60px;
+margin-left:340px;
+margin-top:-55px;
+margin-left:250px;
+
+}
+
+.fourth-section button:hover{
+color: #0073b1;
+    background-color: #e6f3ff;
+
+}.fourth-section h2{
+ color:#B24020;
+align:center;
+margin-left:530px;
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="navbar">
+    <a href="" class="link-image"><img src="linkedin.png" alt="Logo"></a>
+<div class="nav-links">
+    <ul>
+        <li ><img src="articles.png"><a href=""> Articles</a></li>
+        <li ><img src="people.png"><a href=""> People</a></li>
+        <li><img src="learnings.png"><a href=""> Learnings</a></li>
+        <li><img src="jobs.png"><a href=""> Jobs</a></li>
+        <li><img src="games.png"><a href=""> Games</a></li>
+        <li><img src="app.png"><a href=""><font size=1px>Get the App</font></a></li>
+        <li><button class="btn-joinnow">Join now</button></li>
+        <li><button class="btn-signin">Sign in</button></li>
+    </ul>
+</div>
+</div>
+</nav>
+<div class="right-content">
+<h1>Welcome to your <br>professional community</h1>
+<button class="btn-mail"><img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" class="google">Continue with Google</button>
+<br>
+<button class="btn-microsoft"><img src="https://cdn-icons-png.flaticon.com/128/732/732221.png" class="microsoft">Continue with Microsoft</button>
+<br>
+<button class="btn-sign-mail">Sign in with mail</button>
+<br>
+<div class="agree">
+<span>By clicking Continue to join or sign in, you agree to LinkedIn’s<a href=""> User<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agreement</a>, <a href="">Privacy Policy</a>, and <a href="">Cookie Policy</a>.</span>
+</div>
+<div class="new-to-login">
+<span>New to LinkedIn?</span>&nbsp;&nbsp;<a href="">Join now</a>
+</div>
+</div>
+<div class="pic">
+<img src="https://static.licdn.com/aero-v1/sc/h/dxf91zhqd2z6b0bwg85ktm5s4" class="main-pic">
+
+
+</div>
+<section id="second-row">
+<div class="div-second-row">
+<span class="big-text">Explore collaborative articles</span>
+<br>
+<br>
+<span class="sub-text">We’re unlocking community knowledge in a new<br> way. Experts add insights directly into each <br>article, started with the help of AI.</span>
+</div>
+<div class="div-second-row-button">
+<div class="div-second-row-buttons">
+<button>Marketing</button>
+<button>Public Administration</button>
+<button>Healthcare</button>
+<button>Engineering</button>
+<button>IT Services</button>
+<button>Sustainability</button>
+<button>Business Administration</button>
+<button>Telecommunications</button>
+<button>HR Management</button>
+</div>
+<div class="btn-showall">
+<button >Show all</button>
+</div>
+</div>
+</div>
+</section>
+<section id="third-row">
+<div class="div-second-row">
+<span class="third-big-text">Find the right job or <br>internship for you</span>
+<br>
+</div>
+<div class="div-second-row-button">
+<div class="div-second-row-buttons">
+<button>Engineering</button>
+<button>Business Development</button>
+<button>Finance</button>
+<button>Administrative Assistant</button>
+<button>Retail Associate</button>
+<button>Customer Service</button>
+<button>Operations</button>
+<button>Information Technology</button>
+<button>Marketing</button>
+<button>Human Resources</button>
+<br>
+<button>Show more
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="fourth-section">
+<h2>Post your job for millions of people to see</h3><br><br>
+<br>
+<button>Post a job</button>
+</section>
+<section id="second-row">
+<div class="div-second-row">
+<span class="big-text">Discover the best software<br> tools
+</span>
+<br>
+<br>
+<span class="sub-text">Connect with buyers who have first-hand<br> experience to find the best products for you.</span>
+</div>
+<div class="div-second-row-button">
+<div class="div-second-row-buttons">
+<button>E-Commerce Platforms</button>
+<button>CRM Software</button>
+<button>Human Resources Management Systems</button>
+<button>Recruiting Software</button>
+<button>Sales Intelligence Software</button>
+<button>Project Management Software</button>
+<button>Help Desk Software</button>
+<button>Social Networking Software</button>
+<button>Desktop Publishing Software</button>
+</div>
+<div class="btn-showall-fifth">
+<button >Show all</button>
+</div>
+</div>
+</div>
+</section>
+<section id="second-row">
+<div class="div-second-row">
+<span class="big-text">Keep your mind sharp with <br>games</span>
+<br>
+<br>
+<span class="sub-text">Take a break and reconnect with your network <br>through quick daily games.</span>
+</div>
+<div class="div-second-row-button">
+<div class="div-second-row-buttons">
+<button>Pinpoint</button>
+<button>Queens</button>
+<button>CrossClimbs</button>
+
+</div>
+</div>
+</div>
+</section>
+
+
+
+</body>
+</html>
